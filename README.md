@@ -18,7 +18,7 @@ Window manager:
 * [Rectangle](https://rectangleapp.com/)
 
 Themes:
-* [pywal](https://github.com/dylanaraps/pywal) (make sure you manually install. the pip3 install process causes issues with macOS big sur from my experience
+* [pywal](https://github.com/dylanaraps/pywal) (make sure you manually install. the pip3 install process causes issues with macOS big sur from my experience)
 
    ``Day theme: wal -n -i /path/to/daypicture``
 

@@ -5,8 +5,10 @@ Hello! This is a tutorial for how to achieve the macOS theme from [this reddit p
 ## Programs and Dependencies
 This is a list of programs that will be needed.
 
-Terminal:
+Wallpapers:
+* [imgur](https://imgur.com/a/GByFzax)
 
+Terminal:
 * [iterm2](https://iterm2.com/)
 * [zsh](https://www.zsh.org/)
 * [oh-my-zh](https://github.com/ohmyzsh/ohmyzsh) (theme: robbyrussell)

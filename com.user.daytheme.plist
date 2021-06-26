@@ -1,0 +1,37 @@
+<!--  
+      _               _   _                         
+     | |             | | | |                        
+   __| | __ _ _   _  | |_| |__   ___ _ __ ___   ___ 
+  / _` |/ _` | | | | | __| '_ \ / _ \ '_ ` _ \ / _ \
+ | (_| | (_| | |_| | | |_| | | |  __/ | | | | |  __/
+  \__,_|\__,_|\__, |  \__|_| |_|\___|_| |_| |_|\___|
+               __/ |                                
+              |___/                                 
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.daytheme</string>
+    <!--runs: "wal -n -i /path/to/file"-->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/wal</string>
+	<string>-n</string>
+	<string>-i</string>
+	<string>/path/to/file</string>
+    </array>
+    <!--run at 5:53 AM everyday-->
+    <key>StartCalendarInterval</key>
+    <array>
+        <dict>
+            <key>Hour</key>
+            <integer>05</integer>
+            <key>Minute</key>
+            <integer>53</integer>
+        </dict>
+    </array>
+</dict>
+</plist>

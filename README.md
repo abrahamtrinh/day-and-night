@@ -67,3 +67,5 @@ VSCode support is automatically done with the extension linked above.
 
 Then you should be ready to go!
 
+ps: feel free to pm me on reddit any questions!
+

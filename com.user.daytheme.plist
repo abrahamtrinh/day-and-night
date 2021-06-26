@@ -6,7 +6,11 @@
  | (_| | (_| | |_| | | |_| | | |  __/ | | | | |  __/
   \__,_|\__,_|\__, |  \__|_| |_|\___|_| |_| |_|\___|
                __/ |                                
-              |___/                                 
+              |___/  
+			       
+Put this file in /Library/LaunchDaemons
+Then run:
+launchctl load /Library/LaunchDaemons/com.user.daytheme.plist
 -->
 
 <?xml version="1.0" encoding="UTF-8"?>

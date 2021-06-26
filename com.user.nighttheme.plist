@@ -1,0 +1,40 @@
+<!--
+        _       _     _     _   _                         
+       (_)     | |   | |   | | | |                        
+  _ __  _  __ _| |__ | |_  | |_| |__   ___ _ __ ___   ___ 
+ | '_ \| |/ _` | '_ \| __| | __| '_ \ / _ \ '_ ` _ \ / _ \
+ | | | | | (_| | | | | |_  | |_| | | |  __/ | | | | |  __/
+ |_| |_|_|\__, |_| |_|\__|  \__|_| |_|\___|_| |_| |_|\___|
+           __/ |                                          
+          |___/                                           
+
+Put this file in /Library/LaunchDaemons
+Then run:
+launchctl load /Library/LaunchDaemons/com.user.nighttheme.plist
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.nighttheme</string>
+    <!--runs: "wal -f dkegs-vans"-->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/wal</string>
+        <string>-f</string>
+        <string>dkeg-vans</string>
+    </array>
+    <!--run at 6:07 pm everyday-->
+    <key>StartCalendarInterval</key>
+    <array>
+        <dict>
+            <key>Hour</key>
+            <integer>18</integer>
+            <key>Minute</key>
+            <integer>07</integer>
+        </dict>
+    </array>
+</dict>
+</plist>

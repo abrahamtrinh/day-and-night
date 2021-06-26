@@ -29,7 +29,7 @@ vscode pywal extension:
 * [vscode wal theme](https://github.com/dlasagno/vscode-wal-theme)
 
 Apple's docs on launchd:
-* [launchd](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html) (i'll post my plists to automate the theme switching)
+* [launchd](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html)
 
 dynamic wallpaper generator:
 * [dynamic wallpaper creator](https://apps.apple.com/us/app/dynamic-wallpaper-maker/id1453846328?mt=12) (it syncs with ur location to find dusk and dawn and you could set the pictures for almost every few hours).
